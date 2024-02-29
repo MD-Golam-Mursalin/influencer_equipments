@@ -72,3 +72,83 @@
     font-size: 1.5rem;
     font-weight: 700;
   }
+
+  .banner-container{
+      background-image: url("images/Circle\ design.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: top right;
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      gap:130px;
+      margin-bottom: 100px;
+  }
+
+  .banner-title{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .banner-description{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 18px;
+  }
+
+  .primary-btn{
+     font-weight: 700;
+     color: rgb(255, 255, 255);
+     padding: 10px 20px 10px 20px;
+     background-color: coral;
+     border: none;
+     border-radius: 41px;
+  }
+
+
+
+
+
+  /* responsive for mobile device */
+
+  @media screen and (max-width:576px) {
+      
+    nav,ul{
+      flex-direction: column;
+    }
+    .header{
+      margin: 20px 30px 0 30px;
+    }
+    
+    .nav-title{
+      margin-bottom: 20px;
+    }
+   .banner-container{
+     flex-direction: column-reverse;
+     margin-top: 50px;
+     margin-bottom: 0px;
+     gap:70px;
+   }
+   .banner-description{
+     font-weight: 500;
+   }
+
+   .banner-picture img{
+     width: 100%;
+    
+   }
+   .banner-title{
+     font-size: 2rem;
+   }
+
+
+
+  }
+
+ 
