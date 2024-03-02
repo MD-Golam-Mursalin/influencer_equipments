@@ -111,6 +111,20 @@
      border-radius: 41px;
   }
 
+  .sponsors{
+    margin: 0 140px 100px 140px;
+  }
+ 
+  .sponsors-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0 30px 0;
+  }
+
+  .sponsors-container img{
+    width: 100px;
+  }
+
 
 
 
@@ -154,6 +168,25 @@
    }
    .banner-title{
      font-size: 2rem;
+   }
+   .sponsors{
+    margin: 40px 30px 40px 30px;
+   }
+
+   .sponsors-container{
+       display: grid; 
+       grid-template-columns: repeat(4,1fr);  
+       grid-gap:20px;
+       padding: 0;
+     
+   }
+
+   .sponsors hr{
+     display: none;
+   }
+
+   .sponsors-container img{
+     width: 100%;
    }
 
 
