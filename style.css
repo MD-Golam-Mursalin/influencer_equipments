@@ -152,6 +152,10 @@
       margin-bottom: 20px;
       font-size: 1.6rem;
     }
+    .banner-items{
+      text-align: center;
+    }
+
    .banner-container{
      flex-direction: column-reverse;
      margin-top: 50px;
